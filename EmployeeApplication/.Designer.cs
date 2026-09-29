@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.FIrstNameBox = new System.Windows.Forms.TextBox();
+            this.FirstNameBox = new System.Windows.Forms.TextBox();
             this.LastNameBox = new System.Windows.Forms.TextBox();
             this.JobTitleBox = new System.Windows.Forms.TextBox();
             this.DepartmentBox = new System.Windows.Forms.TextBox();
@@ -50,13 +50,13 @@
             this.label9 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // FIrstNameBox
+            // FirstNameBox
             // 
-            this.FIrstNameBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FIrstNameBox.Location = new System.Drawing.Point(12, 36);
-            this.FIrstNameBox.Name = "FIrstNameBox";
-            this.FIrstNameBox.Size = new System.Drawing.Size(188, 22);
-            this.FIrstNameBox.TabIndex = 0;
+            this.FirstNameBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FirstNameBox.Location = new System.Drawing.Point(12, 36);
+            this.FirstNameBox.Name = "FirstNameBox";
+            this.FirstNameBox.Size = new System.Drawing.Size(188, 22);
+            this.FirstNameBox.TabIndex = 0;
             // 
             // LastNameBox
             // 
@@ -260,7 +260,7 @@
             this.Controls.Add(this.JobTitleBox);
             this.Controls.Add(this.DepartmentBox);
             this.Controls.Add(this.LastNameBox);
-            this.Controls.Add(this.FIrstNameBox);
+            this.Controls.Add(this.FirstNameBox);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form1";
@@ -272,7 +272,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox FIrstNameBox;
+        private System.Windows.Forms.TextBox FirstNameBox;
         private System.Windows.Forms.TextBox LastNameBox;
         private System.Windows.Forms.TextBox JobTitleBox;
         private System.Windows.Forms.TextBox DepartmentBox;

@@ -20,7 +20,7 @@ namespace EmployeeApplication
 
         private void ComputeSalary_Click(object sender, EventArgs e)
         {
-            PartTimeEmployee employee = new PartTimeEmployee(FIrstNameBox.Text, LastNameBox.Text, DepartmentBox.Text, JobTitleBox.Text);
+            PartTimeEmployee employee = new PartTimeEmployee(FirstNameBox.Text, LastNameBox.Text, DepartmentBox.Text, JobTitleBox.Text);
 
             if (employee == null)
             {
@@ -28,10 +28,10 @@ namespace EmployeeApplication
             }
 
             employee.ComputeSalary(Convert.ToInt32(TotalHoursWorkedBox.Text), Convert.ToDouble(RatePerHourBox.Text));
-            
-            firstnameLabel.Text = employee.FirstName();
-            lastnameLabel.Text = employee.LastName();
-            basicsalaryLabel.Text = employee.BasicSalary().ToString("0.00");
+
+            firstnameLabel.Text = FirstNameBox.Text;
+            lastnameLabel.Text = LastNameBox.Text;
+            basicsalaryLabel.Text = employee.BasicSalary.ToString("0.00");
         }
     }
 }

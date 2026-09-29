@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using EmployeeApplication;
+
 
 namespace EmployeeInterface 
 {
@@ -14,6 +14,34 @@ namespace EmployeeInterface
         private string department;
         private string jobTitle;
         private double basicSalary;
+
+
+        public string FirstName
+        {
+            get { return firstName; }
+            set { firstName = value; }
+        }
+        public string LastName
+        {
+            get { return lastName; }
+            set { lastName = value; }
+        }
+        public string Department
+        {
+            get { return department; }
+            set { department = value; }
+        }
+        public string JobTitle
+        {
+            get { return jobTitle; }
+            set { jobTitle = value; }
+        }
+
+        public double BasicSalary
+        {
+            get { return basicSalary; }
+            set { basicSalary = value; }
+        }
 
         public PartTimeEmployee(string firstName, string lastName, string department, string jobTitle)
         {
@@ -29,27 +57,6 @@ namespace EmployeeInterface
         }
 
         public double getSalary()
-        {
-            return basicSalary;
-        }
-
-        public string FirstName()
-        {
-            return firstName;
-        }
-        public string LastName()
-        {
-            return lastName;
-        }
-        public string Dpartment()
-        {
-            return department;
-        }
-        public string JobTitle()
-        {
-            return jobTitle;
-        }
-        public double BasicSalary()
         {
             return basicSalary;
         }
