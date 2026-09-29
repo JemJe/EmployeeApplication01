@@ -31,7 +31,7 @@ namespace EmployeeApplication
 
             firstnameLabel.Text = employee.FirstName;
             lastnameLabel.Text = employee.LastName;
-            basicsalaryLabel.Text = employee.BasicSalary.ToString("0.00");
+            basicsalaryLabel.Text = employee.getSalary().ToString("0.00");
         }
     }
 }
