@@ -29,8 +29,8 @@ namespace EmployeeApplication
 
             employee.ComputeSalary(Convert.ToInt32(TotalHoursWorkedBox.Text), Convert.ToDouble(RatePerHourBox.Text));
 
-            firstnameLabel.Text = FirstNameBox.Text;
-            lastnameLabel.Text = LastNameBox.Text;
+            firstnameLabel.Text = employee.FirstName;
+            lastnameLabel.Text = employee.LastName;
             basicsalaryLabel.Text = employee.BasicSalary.ToString("0.00");
         }
     }

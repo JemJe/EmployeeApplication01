@@ -53,12 +53,12 @@ namespace EmployeeInterface
 
         public void ComputeSalary(int hoursWorked, double ratePerHour)
         {
-            basicSalary = hoursWorked * ratePerHour;
+            BasicSalary = hoursWorked * ratePerHour;
         }
 
         public double getSalary()
         {
-            return basicSalary;
+            return BasicSalary;
         }
     }
 }
