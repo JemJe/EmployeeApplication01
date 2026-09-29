@@ -17,4 +17,3 @@ namespace EmployeeInterface
         void ComputeSalary(int hoursWorked, double ratePerHour);
     }
 }
-
